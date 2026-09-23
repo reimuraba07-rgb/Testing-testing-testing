@@ -8,16 +8,16 @@ public class kalser {
 
                 System.out.println("---KALKULATOR SEDERHANA---");
                 System.out.print("Masukkan angka pertama: ");
-                int nor1 = scanner.nextInt();
+                duoble nor1 = scanner.nextDouble();
                 System.out.print("Masukkan angka kedua: ");
-                int nor2 = scanner.nextInt();
+                double nor2 = scanner.nextDouble();
                 System.out.println("Pilih operasi yang anda ingin lakukan");
                 System.out.println("1. Penjumlahan");
                 System.out.println("2. Pengurangan");
                 System.out.println("3. Perkalian");
                 System.out.println("4. Pembagian");
                 byte operasi = scanner.nextByte();
-                int hasil = 0;
+                double hasil = 0;
                 
 
                 switch (operasi){
@@ -34,7 +34,7 @@ public class kalser {
                 }
                 System.out.println("Hasilnya: "+hasil);
                 System.out.println();
-                System.out.println("Program berhasil dijalankan. Ketik 'keluar' jika ingin menghentikan program.");
+                System.out.println("Program berhasil dijalankan. Ketik 'keluar' jika ingin menghentikan program. Ketik 'lanjut' utnuk melanjutkan!");
                 String input = scanner.next();
                     if (input.equalsIgnoreCase("Keluar")){
                         System.out.println("Sampai Jumpa");
